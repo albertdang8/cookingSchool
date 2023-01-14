@@ -1,0 +1,9 @@
+:root {
+    background-color: #F5F3EF;
+    /* --background: #F5F3EF; */
+    --card: #FFFFFF;
+    --accent: #FEBD2F;
+    --text-primary: #000000;
+    --text-secondary: #646464;
+    --outline: #DCDCDC;
+}
