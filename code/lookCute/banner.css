@@ -1,0 +1,21 @@
+.banner {
+    display: flex;
+    margin: 100px 0 120px 0;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.banner-right img {
+    width: 600px;
+    margin-left: 80px;
+}
+
+.bannerp1 {
+    color: var(--text-secondary);
+    font-size: 1.5em;
+    margin-top: 30px;
+}
