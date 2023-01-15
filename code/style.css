@@ -27,6 +27,13 @@ h3 {
     font-weight: bold;
 }
 
+.p1{}
+
+.p2 {
+    color: #646464;
+    font-size: 1.125em;
+}
+
 .main-contain {
     padding: 30px 80px 0 80px;
 }

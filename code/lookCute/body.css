@@ -1,0 +1,77 @@
+.card-area {
+    display: grid;
+    grid-template: 324px 324px / repeat(3, 400px);
+    grid-auto-rows: minmax(324px, auto);
+    grid-template-areas: 
+    "card0 card1 card2"
+    "card3 card4 card5";
+    gap: 80px 40px;
+    justify-content: center;
+}
+
+.title-card {
+    grid-area: card0;
+    background-color: var(--accent);
+    border-radius: 25px;
+    padding: 40px;
+}
+
+.card-button {
+    text-decoration: none;
+    color: var(--text-primary);
+    border: 2px solid var(--outline);
+    font-size: 1.125em;
+    padding: 10px 25px;
+    border-radius: 40px;
+    width: 143px;
+    font-weight: 600;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 40px;
+}
+
+.card-button:hover {
+    background-color: #febc2f98;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    position: relative;
+    border-radius: 25px;
+    background-color: var(--card);
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.card h3 {
+    padding-bottom: 24px;
+}
+
+.icon {
+    position: absolute;
+    top: -40px;
+    right: 45px;
+}
+
+.chef-card{
+    grid-area: card1;
+}
+
+.cooking-card{
+    grid-area: card2;
+}
+
+.nutrition-card{
+    grid-area: card3;
+}
+
+.plants-card{
+    grid-area: card4;
+}
+.teen-card {
+    grid-area: card5;
+}
