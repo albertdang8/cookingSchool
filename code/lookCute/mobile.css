@@ -1,0 +1,108 @@
+.vis {
+    display: none;
+}
+
+.invis {
+    display: flex;
+    justify-content: center;
+}
+
+nav img {
+    position: absolute;
+    top: 0;
+}
+
+.fa-solid, .fa-bars {
+    color: var(--text-primary);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.mobile-nav {
+    flex-direction: row;
+}
+
+.main-contain {
+    padding: 30px 24px 0 24px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 56px 0 40px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h3, .p1 {
+    font-size: 1.4em;
+}
+
+.p2 {
+    font-size: 1.075em;
+}
+
+.banner {
+    margin: 80px 0 40px 0;
+}
+
+
+.banner-left, .banner-right {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.bannerp1 {
+    margin-bottom: 32px;
+    font-size: 1.1em;
+}
+
+.banner-right {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-right img {
+    margin: 0;
+    width: 100%
+}
+
+.card-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    height: 247px;
+    padding: 24px;
+}
+
+.icon {
+    height: 52px;
+    position: absolute;
+    top: -29px;
+    right: 35px;
+}
+
+.card-button {
+    text-decoration: none;
+    font-size: 1.075em;
+    padding: 6px 24px;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 24px;
+}

@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz@8..144&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/4c127a0e3b.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="lookCute/headnfoot.css" />
@@ -17,28 +21,34 @@
     <link rel="stylesheet" href="lookCute/body.css" />
     <link
       rel="stylesheet"
-      href="lookCute/mobile.css"
-      media="screen and (max-width: 480px)"
+      href="lookCute/tablet.css"
+      media="screen and (max-width: 769px)"
     />
     <link
       rel="stylesheet"
-      href="lookCute/tablet.css"
-      media="screen and (max-width: 769px)"
+      href="lookCute/mobile.css"
+      media="screen and (max-width: 480px)"
     />
     <title>Sweet Berries Cooking Schoool</title>
   </head>
 
   <body>
-    
     <main>
       <div class="main-contain">
-        <nav>
+        <nav class="vis">
           <div>
             <a href="#" class="nav_button">Courses</a>
             <a href="#" class="nav_button">About us</a>
           </div>
           <img src="assets/Logo.svg" alt="Sweet Berries cooking school Logo" />
           <a href="#" class="start_button">Get Started</a>
+        </nav>
+        <nav class="invis mobile-nav">
+          <img
+            src="assets/Logo.svg"
+            alt="Sweet Berries cooking school logo"
+          />
+          <a href="#"><i class="fa-solid fa-bars fa-2x invis"></i></a>
         </nav>
         <div class="banner">
           <div class="banner-left">
@@ -121,7 +131,5 @@
         <img src="assets/Logo.svg" alt="logo" />
       </footer>
     </main>
-
   </body>
-
 </html>
