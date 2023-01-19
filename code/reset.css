@@ -8,6 +8,10 @@
     font: inherit;
 }
 
+html {
+    height: min(100vh);
+}
+
 body {
     min-height: 100vh;
     font-family: 'Roboto';

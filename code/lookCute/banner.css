@@ -1,6 +1,6 @@
 .banner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 100px 0 120px 0;
 }
 

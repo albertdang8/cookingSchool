@@ -1,0 +1,90 @@
+.main-contain {
+  padding: 30px 40px 0 40px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0 72px 0;
+  /* background-color: aqua; */
+}
+
+h1 {
+  font-size: 3.75em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3,
+.p1 {
+  font-size: 1.4em;
+}
+
+.p2 {
+  font-size: 1.075em;
+}
+
+.banner-left,
+.banner-right {
+  margin: 0;
+  text-align: center;
+}
+
+.bannerp1 {
+  margin-bottom: 60px;
+}
+
+.banner-left {
+  width: 40%;
+}
+
+.banner-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+.banner-right img {
+  margin: 0;
+  width: auto;
+}
+
+.card-area {
+  display: grid;
+  grid-template: repeat(2, 271px) / repeat(4, 332px);
+  grid-auto-rows: minmax(271px, auto);
+  grid-template-areas:
+    "card0 card1 card2 card3"
+    "card0 card4 card5 .";
+  gap: 56px 56px;
+  justify-content: center;
+}
+
+.title-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon {
+  height: 52px;
+  position: absolute;
+  top: -29px;
+  right: 35px;
+}
+
+.card-button {
+  text-decoration: none;
+  font-size: 1.075em;
+  padding: 6px 24px;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  bottom: 28px;
+}
