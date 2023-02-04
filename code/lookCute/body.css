@@ -1,3 +1,11 @@
+/* It is not ideal to use grid-template-areas for the card grid.
+In a real world scenario, we will get the data for the cards from a backend or an API.
+This means that we won't know how many cards we will have.
+So, we should code it in a way that will add cards in a row of 3s and make more rows if needed.
+So, by just defining the grid template columns, the cards will fall into their cells and make new rows
+
+Again, try to always stay away from px and use more responsive units such as fr instead
+*/
 .card-area {
     display: grid;
     grid-template: 324px 324px / repeat(3, 400px);
@@ -35,6 +43,7 @@
     padding-bottom: 24px;
 }
 
+/* Nice work on using position absolute */
 .icon {
     position: absolute;
     top: -40px;

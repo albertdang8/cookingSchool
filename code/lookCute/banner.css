@@ -11,6 +11,10 @@
 }
 
 .banner-right img {
+/* Try to always stay away from pixels especially when it comes to width.
+Try to always use more responsive units such as %.
+Your page kinda breaks when its getting smaller and right before the tablet size. This is due to using px instead of %.
+The end-goal is to have your website to be responsive on all screensizes. */
     width: 600px;
     margin-left: 80px;
 }

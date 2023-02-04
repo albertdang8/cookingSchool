@@ -17,6 +17,7 @@ a:nth-child(2) {
     margin-left: 3rem;
 }
 
+/* Beautiful touch on the nav button to have a bottom border when hovering over! */
 .nav_button:hover {
     border-bottom: 3px solid #febc2f98;
 }
